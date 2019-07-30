@@ -216,36 +216,42 @@
 					<div class="ep-flowchart" id="ep-flowchart">
 						<div class="ep-svg-wrap">
 
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 570">
 								<g id="Page-1" fill="none" fill-rule="evenodd">
 									<g id="Course-Template">
 
-										<g transform="translate(110 50)">
+										<g transform="translate(110 0)">
 											<rect id="Rectangle" width="370" height="40" fill="#e9e9e9" rx="20" />
 											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="16">
 												<tspan x="20" y="25">Sospecha clínica de hipertensión intracraneal</tspan>
 											</text>
 										</g>
-										<g transform="translate(280 120)">
+										<g transform="translate(280 50)">
 											<rect id="Rectangle" width="50" height="40" fill="#e9e9e9" rx="20" />
 											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="16">
 												<tspan x="13" y="25">TC</tspan>
 											</text>
 										</g>
 
-										<g transform="translate(80 190)">
+										<g transform="translate(80 100)">
 											<rect id="Rectangle" width="160" height="40" fill="#e9e9e9" rx="20" />
 											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="16">
 												<tspan x="20" y="25">CONFIRMACIÓN</tspan>
 											</text>
 										</g>
-										<g transform="translate(360 190)">
+										<g transform="translate(360 100)">
 											<rect id="Rectangle" width="200" height="40" fill="#c8c8c8" rx="20" />
 											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="16">
 												<tspan x="27" y="25">NO CONFIRMACIÓN</tspan>
 											</text>
 										</g>
-										<g transform="translate(0 300)">
+										<g transform="translate(430 150)">
+											<rect id="Rectangle" width="50" height="40" fill="#c8c8c8" rx="20" />
+											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="16">
+												<tspan x="13" y="25">RM</tspan>
+											</text>
+										</g>
+										<g transform="translate(0 200)">
 											<rect id="Rectangle" width="150" height="70" fill="#e9e9e9" rx="20" />
 											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="15">
 												<tspan x="20" y="25">metástasis de</tspan>
@@ -253,7 +259,7 @@
 												<tspan x="20" y="55">rio conocido</tspan>
 											</text>
 										</g>
-										<g transform="translate(160 300)">
+										<g transform="translate(160 200)">
 											<rect id="Rectangle" width="150" height="70" fill="#e9e9e9" rx="20" />
 											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="15">
 												<tspan x="20" y="25">metástasis de</tspan>
@@ -261,22 +267,17 @@
 												<tspan x="20" y="55">rio desconocido</tspan>
 											</text>
 										</g>
-										<g transform="translate(430 240)">
-											<rect id="Rectangle" width="50" height="40" fill="#c8c8c8" rx="20" />
-											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="16">
-												<tspan x="13" y="25">RM</tspan>
-											</text>
-										</g>
-										<g transform="translate(390 300)">
-											<rect id="Rectangle" width="120" height="70" fill="#e9e9e9" rx="20" />
+
+										<g transform="translate(400 200)">
+											<rect id="Rectangle" width="115" height="70" fill="#e9e9e9" rx="20" />
 											<text id="Elements-of-Design" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="14">
-												<tspan x="20" y="25">iniciar</tspan>
+												<tspan x="37" y="25">iniciar</tspan>
 												<tspan x="20" y="40">diagnóstico</tspan>
-												<tspan x="20" y="55">etiológico</tspan>
+												<tspan x="27" y="55">etiológico</tspan>
 
 											</text>
 										</g>
-										<g id="ep-content" class="ep-svg-block" @click="{{ display = true; selected = 'ep-content' }}" transform="translate(0 380)">
+										<g id="ep-content" class="ep-svg-block" @click="{{ display = true; selected = 'ep-content' }}" transform="translate(0 300)">
 											<rect id="Rectangle" width="310" height="90" fill="#ffcc00" rx="20" />
 											<text id="Elements-of-Design" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="15">
 												<tspan x="20" y="25">Dexametasona 10 mg i.v. en bolo</tspan>
@@ -284,7 +285,7 @@
 												<tspan x="20" y="75">Manitol (según evolución clínica)</tspan>
 											</text>
 										</g>
-										<g id="ep-form" class="ep-svg-block" @click="{{ display = true; selected = 'ep-form' }}" transform="translate(0 480)">
+										<g id="ep-form" class="ep-svg-block" @click="{{ display = true; selected = 'ep-form' }}" transform="translate(0 410)">
 											<rect id="Rectangle" width="90" height="55" fill="#ffcc00" rx="20" />
 											<text id="Elements-of-Design" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
 												<tspan x="7" y="25">radioterapia</tspan>
@@ -292,19 +293,19 @@
 											</text>
 										</g>
 
-										<g id="ep-media" class="ep-svg-block" @click="{{ display = true; selected = 'ep-media' }}" transform="translate(100 480)">
+										<g id="ep-media" class="ep-svg-block" @click="{{ display = true; selected = 'ep-media' }}" transform="translate(100 410)">
 											<rect id="Rectangle" width="225" height="160" fill="#ffcc00" rx="20" />
 											<text id="Elements-of-Design" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
-												<tspan x="5" y="25">valorar radiocirugía esterotáxica si:</tspan>
+												<tspan x="5" y="25">valorar radiocirugía estereotáxica si:</tspan>
 												<tspan x="10" y="50">•1-3 lesiones menores de 3cm</tspan>
-												<tspan x="10" y="75">•Tumor primario con posibilidad</tspan>
+												<tspan x="10" y="75">•tumor primario con posibilidad</tspan>
 												<tspan x="10" y="90">&nbspde control</tspan>
-												<tspan x="10" y="115">•Posibilidad de trazar zonas donde</tspan>
+												<tspan x="10" y="115">•posibilidad de trazar zonas donde</tspan>
 												<tspan x="10" y="130">&nbspla cirugía no es posible, como el</tspan>
 												<tspan x="10" y="145">&nbsptronco cerebral</tspan>
 											</text>
 										</g>
-										<g transform="translate(335 480)">
+										<g transform="translate(335 410)">
 											<rect id="Rectangle" width="260" height="160" fill="#e9e9e9" rx="20" />
 											<text id="Elements-of-Design" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="13">
 												<tspan x="5" y="25">valorar neurocirugía si:</tspan>
@@ -351,18 +352,7 @@
 									<p>Es una técnica por la que se administra una única dosis elevada de irradiación sobre un volumen pequeño. Su uso en el tratamiento de metástasis cerebrales cada vez es más frecuente. Presenta algunas ventajas sobre la cirugía como la posibilidad de tratar zonas donde ésta no es posible, como en el tronco cerebral, y es una técnica no invasiva que puede ser realizada en régimen ambulatorio.</p>
 									<p>Las lesiones que suelen ser consideradas ideales para el tratamiento con radiocirugía son pequeñas (habitualmente menores de 3 cm de diámetro máximo), circunscritas y no infiltran el tejido cerebral circundante.</p>
 								</div>
-								<div class="ep-detail" v-show="selected == 'ep-elements'">
-									<h3>Elements of Design</h3>
-									<p>Line, Shape, Value, Texture, Color, Illusion of Depth, Illusion of Movement</p>
-								</div>
-								<div class="ep-detail" v-show="selected == 'ep-principles'">
-									<h3>Principles of Organization</h3>
-									<p>Balance, Movement, Emphasis/Dpminance/Focal Point, Rhythm (through repetition), Economy, Variety</p>
-								</div>
-								<div class="ep-detail" v-show="selected == 'ep-unity'">
-									<h3>Unity</h3>
-									<p>Both a guiding principle and the end-result of a well-considered design.</p>
-								</div>
+
 
 
 							</div>
