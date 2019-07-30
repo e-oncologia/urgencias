@@ -15,6 +15,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
+	<link rel="stylesheet" href="css/stylediagram.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
@@ -197,36 +198,181 @@
 					</div>
 				</div>
 			</div>
-
 			<div class="ico-narrow-content">
 				<div class="row animate-box" data-animate-effect="fadeInLeft">
 					<div class="col-md-12">
-						<h3 class="bgdorado">Tratamiento</h3>
-
-						<div class="marcoTexto">
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-
-						</div>
-
+						<img src="images/ICONOclic.png" alt="" class="img-responsive centrada">
+						<p class="text-center">Haz click en los elementos en amarillo para ver su contenido:</p>
 
 					</div>
 				</div>
+			</div>
+
+			<div class="ico-narrow-content">
+
+
+				<div class="template-wrap">
+
+					<div class="ep-flowchart" id="ep-flowchart">
+						<div class="ep-svg-wrap">
+
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+								<g id="Page-1" fill="none" fill-rule="evenodd">
+									<g id="Course-Template">
+
+										<g transform="translate(110 50)">
+											<rect id="Rectangle" width="370" height="40" fill="#e9e9e9" rx="20" />
+											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="16">
+												<tspan x="20" y="25">Sospecha clínica de hipertensión intracraneal</tspan>
+											</text>
+										</g>
+										<g transform="translate(280 120)">
+											<rect id="Rectangle" width="50" height="40" fill="#e9e9e9" rx="20" />
+											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="16">
+												<tspan x="13" y="25">TC</tspan>
+											</text>
+										</g>
+
+										<g transform="translate(80 190)">
+											<rect id="Rectangle" width="160" height="40" fill="#e9e9e9" rx="20" />
+											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="16">
+												<tspan x="20" y="25">CONFIRMACIÓN</tspan>
+											</text>
+										</g>
+										<g transform="translate(360 190)">
+											<rect id="Rectangle" width="200" height="40" fill="#c8c8c8" rx="20" />
+											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="16">
+												<tspan x="27" y="25">NO CONFIRMACIÓN</tspan>
+											</text>
+										</g>
+										<g transform="translate(0 300)">
+											<rect id="Rectangle" width="150" height="70" fill="#e9e9e9" rx="20" />
+											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="15">
+												<tspan x="20" y="25">metástasis de</tspan>
+												<tspan x="20" y="40">tumor prima-</tspan>
+												<tspan x="20" y="55">rio conocido</tspan>
+											</text>
+										</g>
+										<g transform="translate(160 300)">
+											<rect id="Rectangle" width="150" height="70" fill="#e9e9e9" rx="20" />
+											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="15">
+												<tspan x="20" y="25">metástasis de</tspan>
+												<tspan x="20" y="40">tumor prima-</tspan>
+												<tspan x="20" y="55">rio desconocido</tspan>
+											</text>
+										</g>
+										<g transform="translate(430 240)">
+											<rect id="Rectangle" width="50" height="40" fill="#c8c8c8" rx="20" />
+											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="16">
+												<tspan x="13" y="25">RM</tspan>
+											</text>
+										</g>
+										<g transform="translate(390 300)">
+											<rect id="Rectangle" width="120" height="70" fill="#e9e9e9" rx="20" />
+											<text id="Elements-of-Design" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="14">
+												<tspan x="20" y="25">iniciar</tspan>
+												<tspan x="20" y="40">diagnóstico</tspan>
+												<tspan x="20" y="55">etiológico</tspan>
+
+											</text>
+										</g>
+										<g id="ep-content" class="ep-svg-block" @click="{{ display = true; selected = 'ep-content' }}" transform="translate(0 380)">
+											<rect id="Rectangle" width="310" height="90" fill="#ffcc00" rx="20" />
+											<text id="Elements-of-Design" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="15">
+												<tspan x="20" y="25">Dexametasona 10 mg i.v. en bolo</tspan>
+												<tspan x="20" y="50">Dexametasona 4-6 mg i.v. cada 6 horas</tspan>
+												<tspan x="20" y="75">Manitol (según evolución clínica)</tspan>
+											</text>
+										</g>
+										<g id="ep-form" class="ep-svg-block" @click="{{ display = true; selected = 'ep-form' }}" transform="translate(0 480)">
+											<rect id="Rectangle" width="90" height="55" fill="#ffcc00" rx="20" />
+											<text id="Elements-of-Design" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
+												<tspan x="7" y="25">radioterapia</tspan>
+												<tspan x="20" y="40">craneal</tspan>
+											</text>
+										</g>
+
+										<g id="ep-media" class="ep-svg-block" @click="{{ display = true; selected = 'ep-media' }}" transform="translate(100 480)">
+											<rect id="Rectangle" width="225" height="160" fill="#ffcc00" rx="20" />
+											<text id="Elements-of-Design" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
+												<tspan x="5" y="25">valorar radiocirugía esterotáxica si:</tspan>
+												<tspan x="10" y="50">•1-3 lesiones menores de 3cm</tspan>
+												<tspan x="10" y="75">•Tumor primario con posibilidad</tspan>
+												<tspan x="10" y="90">&nbspde control</tspan>
+												<tspan x="10" y="115">•Posibilidad de trazar zonas donde</tspan>
+												<tspan x="10" y="130">&nbspla cirugía no es posible, como el</tspan>
+												<tspan x="10" y="145">&nbsptronco cerebral</tspan>
+											</text>
+										</g>
+										<g transform="translate(335 480)">
+											<rect id="Rectangle" width="260" height="160" fill="#e9e9e9" rx="20" />
+											<text id="Elements-of-Design" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="13">
+												<tspan x="5" y="25">valorar neurocirugía si:</tspan>
+												<tspan x="10" y="50">•necesidad de diagnóstico histológico</tspan>
+												<tspan x="10" y="65">&nbspsi tumor primario es desconocido.</tspan>
+												<tspan x="10" y="90">•diagnóstico incierto con sospecha me-</tspan>
+												<tspan x="10" y="105">&nbspdiante TC o RM de lesiones benignas.</tspan>
+												<tspan x="10" y="130">•metástasis técnicamente extirpables</tspan>
+												<tspan x="10" y="145">&nbspcon tumor primario controlado.</tspan>
+											</text>
+										</g>
+
+
+
+
+
+
+									</g>
+								</g>
+							</svg>
+
+						</div>
+						<transition name="pop-details">
+							<div class="ep-detail-wrap" v-show="selected != ''" @click="{{selected = ''}}">
+
+								<div class="ep-detail" v-show="selected == 'ep-content'">
+									<h3>La administración de dexametasona intravenosa</h3>
+									<p><span class="rosa">•</span> Fortecortin® ampollas de 4 mg/ml, ampollas de 40 mg/ ml.</p>
+									<p><span class="rosa">•</span> Lo habitual es administrar 10 mg iniciales seguidos de 4 mg cada 6 horas durante al menos 72 horas, iniciando una pauta descendente en función de la evolución clínica.</p>
+									<br>
+									<p>Si los síntomas evolucionan hacia el estupor o el coma, algunos autores recomiendan asociar oxigenoterapia y manitol iv (Manitol Baxter® solución al 20%, viales de 250 ml y 500 ml)</p>
+									<h3>Administrar el Manitol</h3>
+									<p><span class="rosa">•</span> 250 ml de Manitol al 20% en diez minutos al inicio.</p>
+									<p><span class="rosa">•</span> 125 ml de manitol al 20% cada 4-6 horas en diez minutos (hasta un máximo de 72 horas).</p>
+									<br>
+									<p>Es preciso controlar diuresis, función renal, ionograma y osmolaridad plasmática.</p>
+								</div>
+								<div class="ep-detail" v-show="selected == 'ep-form'">
+									<h3>Radioterapia craneal</h3>
+									<p>Es el tratamiento posterior considerado de elección en la mayor parte de los casos y suele conseguir la mejoría sintomática en el 70% al 90% de los pacientes.</p>
+								</div>
+								<div class="ep-detail" v-show="selected == 'ep-media'">
+									<h3>La radiocirugía estereotáxica</h3>
+									<p>Es una técnica por la que se administra una única dosis elevada de irradiación sobre un volumen pequeño. Su uso en el tratamiento de metástasis cerebrales cada vez es más frecuente. Presenta algunas ventajas sobre la cirugía como la posibilidad de tratar zonas donde ésta no es posible, como en el tronco cerebral, y es una técnica no invasiva que puede ser realizada en régimen ambulatorio.</p>
+									<p>Las lesiones que suelen ser consideradas ideales para el tratamiento con radiocirugía son pequeñas (habitualmente menores de 3 cm de diámetro máximo), circunscritas y no infiltran el tejido cerebral circundante.</p>
+								</div>
+								<div class="ep-detail" v-show="selected == 'ep-elements'">
+									<h3>Elements of Design</h3>
+									<p>Line, Shape, Value, Texture, Color, Illusion of Depth, Illusion of Movement</p>
+								</div>
+								<div class="ep-detail" v-show="selected == 'ep-principles'">
+									<h3>Principles of Organization</h3>
+									<p>Balance, Movement, Emphasis/Dpminance/Focal Point, Rhythm (through repetition), Economy, Variety</p>
+								</div>
+								<div class="ep-detail" v-show="selected == 'ep-unity'">
+									<h3>Unity</h3>
+									<p>Both a guiding principle and the end-result of a well-considered design.</p>
+								</div>
+
+
+							</div>
+						</transition>
+
+					</div>
+
+				</div>
+
+
 			</div>
 
 
@@ -302,8 +448,6 @@
 		</div>
 	</div>
 
-	<!-- test -->
-	<script type="text/javascript" src="js/test.js"></script>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -318,10 +462,11 @@
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
-
-
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
+	<!-- partial -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js'></script>
+	<script src="js/scriptdiagram.js"></script>
 
 </body>
 
