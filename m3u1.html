@@ -111,6 +111,12 @@
 							<p class="text-center">El mieloma múltiple</p>
 						</div>
 					</div>
+				</div>
+			</div>
+
+		<div class="ico-narrow-content">
+			<div class="row animate-box" data-animate-effect="fadeInLeft">
+				<div class="col-md-12">
 					<div class="col-md-6">
 						<div class="marcoTexto">
 							<p class="text-center">El cáncer de cabeza y cuello</p>
@@ -125,7 +131,7 @@
 					</div>
 				</div>
 			</div>
-
+		</div>
 
 			<div class="ico-narrow-content">
 				<div class="row animate-box" data-animate-effect="fadeInLeft">
@@ -300,37 +306,195 @@
 					</div>
 				</div>
 			</div>
-
-
 			<div class="ico-narrow-content">
 				<div class="row animate-box" data-animate-effect="fadeInLeft">
 					<div class="col-md-12">
 
-						<div class="marcoTexto">
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-
-						</div>
-
+						<img src="images/ICONOclic.png" alt="" class="img-responsive centrada">
+						<p class="text-center">Haz click en los elementos destacados en amarillo para ver su contenido:</p>
+						<h4 class="text-center">Diagrama del tratamiento de la hipercalcemia en el paciente con cáncer</h4>
 
 					</div>
 				</div>
 			</div>
+
+			<div class="ico-narrow-content">
+
+
+					<div class="template-wrap">
+
+						<div class="ep-flowchart" id="ep-flowchart">
+							<div class="ep-svg-wrap">
+
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 765">
+									<g id="Page-1" fill="none" fill-rule="evenodd">
+										<g id="Course-Template">
+
+											<g transform="translate(25 0)">
+												<rect id="Rectangle" width="550" height="40" fill="#c8c8c8" rx="20" />
+												<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="14">
+													<tspan x="20" y="25">Calcio sérico corregido > 10,5mg/dl sintomático o > 13 mg/dl con o sin síntomas</tspan>
+
+												</text>
+											</g>
+											<g id="ep-content" class="ep-svg-block" @click="{{ display = true; selected = 'ep-content' }}" transform="translate(165 60)">
+													<rect id="Rectangle" width="270" height="115" fill="#ffcc00" rx="20" />
+													<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="14">
+														<tspan x="10" y="25">Hidratación forzada</tspan>
+														<tspan x="10" y="40" class="italic">suero fisiológico</tspan>
+														<tspan x="10" y="55" class="small">500-1000 ml/h en las primeras horas, seguido</tspan>
+														<tspan x="10" y="70" class="small">de 100-200 ml/h en las siguientes 24h</tspan>
+														<tspan x="10" y="85" class="small">(control estricto de PVC y diuresis)</tspan>
+														<tspan x="10" y="100" class="small">(aporte de 3000-6000 ml/24h)</tspan>
+													</text>
+												</g>
+
+												<g id="ep-form" class="ep-svg-block" @click="{{ display = true; selected = 'ep-form' }}" transform="translate(450 80)">
+														<rect id="Rectangle" width="145" height="115" fill="#ffcc00" rx="20" />
+														<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="14">
+
+															<tspan x="10" y="25" class="small">Considerar diálisis en:</tspan>
+															<tspan x="10" y="40" class="small">hipercalcemia grave e</tspan>
+															<tspan x="10" y="55" class="small">insuficiencia renal</tspan>
+															<tspan x="10" y="70" class="small">marcada, insuficiencia</tspan>
+															<tspan x="10" y="85" class="small">cardiaca o síntomas</tspan>
+															<tspan x="10" y="100" class="small">neurológicos graves</tspan>
+														</text>
+													</g>
+
+													<g transform="translate(0 80)">
+															<rect id="Rectangle" width="145" height="115" fill="#e9e9e9" rx="20" />
+															<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="14">
+
+																<tspan x="18" y="55" class="small">Asociar tratamiento</tspan>
+																<tspan x="10" y="70" class="small">específico antitumoral</tspan>
+
+															</text>
+														</g>
+
+														<g id="ep-media" class="ep-svg-block" @click="{{ display = true; selected = 'ep-media' }}" transform="translate(165 195)">
+																<rect id="Rectangle" width="270" height="55" fill="#ffcc00" rx="20" />
+																<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="14">
+																	<tspan x="40" y="25" class="small">Si hay pobre respuesta o en todos</tspan>
+																	<tspan x="10" y="40" class="small">los casos de hipercalcemia grave (> 14 mg/dl)</tspan>
+																</text>
+															</g>
+
+															<g id="ep-elements" class="ep-svg-block" @click="{{ display = true; selected = 'ep-elements' }}" transform="translate(165 270)">
+																	<rect id="Rectangle" width="270" height="225" fill="#ffcc00" rx="20" />
+																	<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="14">
+																		<tspan x="80" y="25">BIFOSFONATOS</tspan>
+																		<tspan x="20" y="45" class="italic">Ácido zoledrónico (Zometa®)</tspan>
+																		<tspan x="20" y="60" class="small">4mg i.v. en infusión de 15 minutos</tspan>
+																		<tspan x="10" y="77" class="small">o</tspan>
+																		<tspan x="20" y="95" class="italic">Pamidronato</tspan>
+																		<tspan x="20" y="110" class="small">90 mg i.v. en infusión de 2h</tspan>
+																		<tspan x="10" y="127" class="small">o</tspan>
+																		<tspan x="20" y="145" class="italic">Ibandronato</tspan>
+																		<tspan x="20" y="160" class="small">6mg i.v. en infusión de 2h</tspan>
+																		<tspan x="10" y="177" class="small">o</tspan>
+																		<tspan x="20" y="195" class="italic">Denosumab</tspan>
+																		<tspan x="20" y="210" class="small">120mg sc. cada 28 días</tspan>
+
+																	</text>
+																</g>
+
+																<g id="ep-principles" class="ep-svg-block" @click="{{ display = true; selected = 'ep-principles' }}" transform="translate(450 300)">
+																		<rect id="Rectangle" width="145" height="160" fill="#ffcc00" rx="20" />
+																		<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="14">
+
+																			<tspan x="10" y="25" class="small">Considerar asociación</tspan>
+																			<tspan x="10" y="40" class="small">de otros fármacos</tspan>
+																			<tspan x="10" y="55" class="small italic">(principalmente si bifos-</tspan>
+																			<tspan x="10" y="70" class="small italic">fonatos inefectivos o</tspan>
+																			<tspan x="10" y="85" class="small italic">contraindicados)</tspan>
+																			<tspan x="10" y="105" class="small">Calcitonina</tspan>
+																			<tspan x="10" y="125" class="small">Glucocorticoides</tspan>
+																			<tspan x="10" y="145" class="small">Nitrato de galio</tspan>
+
+																		</text>
+																	</g>
+
+																	<g transform="translate(165 515)">
+																			<rect id="Rectangle" width="270" height="55" fill="#e9e9e9" rx="20" />
+																			<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="14">
+																				<tspan x="50" y="25" class="small">¿Calcemia normalizada pero</tspan>
+																				<tspan x="70" y="40" class="small">previsible recaída?</tspan>
+																			</text>
+																		</g>
+																		<g transform="translate(165 590)">
+																				<rect id="Rectangle" width="270" height="175" fill="#e9e9e9" rx="20" />
+																				<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="14">
+																					<tspan x="7" y="25">Asociar tratamiento de mantenimiento</tspan>
+																					<tspan x="20" y="45" class="italic">si se empleó ácido zoledrónico:</tspan>
+																					<tspan x="20" y="60" class="small">repetir 4 mg i.v. cada 28 días</tspan>
+																					<tspan x="10" y="77" class="small">o</tspan>
+																					<tspan x="20" y="95" class="italic">si se empleó pamidronato:</tspan>
+																					<tspan x="20" y="110" class="small">repetir 90 mg i.v. cada 28 días</tspan>
+																					<tspan x="10" y="127" class="small">o</tspan>
+																					<tspan x="20" y="145" class="italic">si se empleó ibandronato:</tspan>
+																					<tspan x="20" y="160" class="small">repetir 6mg i.v. cada 28 días</tspan>
+
+																				</text>
+																			</g>
+
+
+
+
+
+
+										</g>
+									</g>
+								</svg>
+
+							</div>
+							<transition name="pop-details">
+								<div class="ep-detail-wrap" v-show="selected != ''" @click="{{selected = ''}}">
+
+									<div class="ep-detail" v-show="selected == 'ep-content'">
+										<p>En los pacientes con hipercalcemia grave e insuficiencia renal marcada o insuficiencia cardiaca debe considerarse la diálisis.</p>
+									</div>
+									<div class="ep-detail" v-show="selected == 'ep-form'">
+										<p><span class="rosa">&nbsp• </span>En primer lugar, debe procederse a realizar una hidratación vigorosa con suero fisiológico –con control de presión venosa central (PVC) y diuresis horaria– a un ritmo inicial de 500-1.000 cc/hora durante las primeras horas, manteniendo posteriormente 100-200 cc/hora, dependiendo de las funciones renal y cardiovascular del paciente, para conseguir un aporte de 3 a 6 litros en 24 horas. Esto permite incrementar el filtrado glomerular y favorecer la excreción de calcio. Mantener una diuresis de 100-200 cc/hora.</p>
+										<p><span class="rosa">&nbsp• </span>La asociación de furosemida –siempre tras una adecuada hidratación inicial, y en función de la diuresis y PVC– a dosis de 20-40 mg i.v. cada 6-12 horas, permite incrementar la excreción renal de calcio, aunque con un efecto limitado. Además, su uso suele ser necesario para un adecuado control de la diuresis y el balance hídrico.Es imprescindible vigilar la posible aparición de hipopotasemia e hipomagnesemia que se asocian por pérdidas urinarias. Los diuréticos tiazídicos están contraindicados, al aumentar la reabsorción de calcio en el riñón.</p>
+										<p><span class="rosa">&nbsp• </span>En hipercalcemias leves-moderadas las medidas anteriormente expuestas pueden ser suficientes; sin embargo, en raras ocasiones son suficientes por sí solas para disminuir de forma significativa y mantenida la calcemia en hipercalcemias graves (más de 14 mg/dl), por lo que suele ser necesario asociar tratamiento farmacológico hipocalcemiante.</p>
+
+									</div>
+									<div class="ep-detail" v-show="selected == 'ep-media'">
+
+										<p>Los fármacos mas empleados actualmente son los bifosfonatos y denosumab. Entre los bifosfonatos, el ácido zoledrónico es el más empleado por la evidencia disponible en pacientes oncológicos. Denosumab es un anticuerpo monoclonal humano contra RANKL, que inhibe la función de los osteoclastos y a diferencia de los bifosfonatos no tiene restricción para su uso en pacientes con insuficiencia renal. Su administración debe iniciarse tan pronto como se descubra la hipercalcemia, ya que las respuestas comienzan a observarse tras 2-4 días de tratamiento.</p>
+									</div>
+									<div class="ep-detail" v-show="selected == 'ep-elements'">
+
+										<p><span class="rosa">&nbsp• El ácido zoledrónico (Zometa®)</span> es, en nuestro medio, el bifosfonato de elección en el tratamiento de la hipercalcemia paraneoplásica. Se administra como dosis única de 4 mg en infusión i.v. de 15 minutos. Hasta un 88% de los pacientes normalizan los niveles de calcio en los primeros diez días tras la administración. En aquellos casos en los que por la enfermedad de base se prevea la reaparición de hipercalcemia debe administrarse una dosis mensual.</p>
+
+										<p><span class="rosa">&nbsp• El clodronato disódico (Bonefos®)</span> fue el más empleado de forma clásica. Se administra a dosis iniciales de 5 mg/kg de peso i.v. diluido en 500 ml de suero salino en infusión de 2-6 horas, cada 24 horas. El tratamiento puede repetirse de forma diaria de dos a cinco días y posteriormente, para evitar recaídas, se puede mantener por v.o. a dosis de 800 mg/12 horas.</p>
+										<p><span class="rosa">&nbsp• El pamidronato (Aredia®, Linoten®, Pamifos®)</span> se administra en dosis única de 60-90 mg i.v. en 500 cc de suero salino, en infusión de dos horas. Consigue un 70% de respuestas, recomendándose, al igual que con el ácido zoledrónico, repetir la dosis cada tres o cuatro semanas para evitar recidivas.</p>
+										<p><span class="rosa">&nbsp• El ibandronato</span> también puede emplearse en el tratamiento de la hipercalcemia, en dosis única de 6 mg diluido en 500 cc de suero salino en infusión de dos horas. En la mayoría de los casos se alcanzan niveles normales de calcio en los primeros siete días, pero puede considerarse la administración de una segunda dosis en caso de recaída o ausencia de respuesta.</p>
+
+									</div>
+									<div class="ep-detail" v-show="selected == 'ep-principles'">
+										<p>Otros fármacos menos utilizados en la actualidad son:</p>
+										<p><span class="rosa">&nbsp• Calcitonina</span>, caracterizada por presentar un efecto muy rápido pero de corta duración. Se administra por vía subcutánea o intramuscular a dosis iniciales de 4 U/kg/12 horas, pudiendo hacer una escalada de dosis
+hasta a 8 U/kg/12 h. Puede emplearse si existen síntomas graves y se precisa un rápido descenso de la calcemia, pero asociando bifosfonatos para mantener el efecto de manera prolongada.
+</p>
+										<p><span class="rosa">&nbsp• Glucocorticoides</span>, por ejemplo prednisona a dosis de 40-100 mg al día –por sí mismos tienen una eficacia limitada, asociados a calcitonina prolongan el efecto de ésta–. Especialmente útiles en linfomas y mielomas.</p>
+										<p><span class="rosa">&nbsp• Nitrato de galio</span>, fármaco muy efectivo, pero de uso limitado debido a su modo de administración –100-200 mg/m2 en infusión continua de 24 horas durante cinco días– y debido también a su nefrotoxicidad.</p>
+										<p><span class="rosa">&nbsp• Mitramicina</span>, a dosis de 10-25 µg/kg en infusión de 4-6 horas es menos potente y más tóxica (trombopenia, nefrotoxicidad y hepatotoxicidad), por lo que apenas se emplea.</p>
+
+									</div>
+
+
+
+								</div>
+							</transition>
+
+						</div>
+
+					</div>
+
+
+				</div>
 
 
 			<div class="ico-franja">

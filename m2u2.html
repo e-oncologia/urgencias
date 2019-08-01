@@ -303,31 +303,162 @@
 				<div class="row animate-box" data-animate-effect="fadeInLeft">
 					<div class="col-md-12">
 
-						<div class="marcoTexto">
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-
-						</div>
-
+						<img src="images/ICONOclic.png" alt="" class="img-responsive centrada">
+						<p class="text-center">Haz click en los elementos destacados en amarillo para ver su contenido:</p>
+						<h4 class="text-center">Diagrama diagnóstico-terapéutico en el taponamiento cardiaco</h4>
 
 					</div>
 				</div>
 			</div>
+
+
+			<div class="ico-narrow-content">
+
+
+				<div class="template-wrap">
+
+					<div class="ep-flowchart" id="ep-flowchart">
+						<div class="ep-svg-wrap">
+
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 730">
+								<g id="Page-1" fill="none" fill-rule="evenodd">
+									<g id="Course-Template">
+
+										<g transform="translate(150 10)">
+											<rect id="Rectangle" width="300" height="55" fill="#c8c8c8" rx="20" />
+											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="15">
+												<tspan x="30" y="25">Paciente con cáncer y sospecha</tspan>
+												<tspan x="30" y="40">clínica de taponamiento cardiaco</tspan>
+
+											</text>
+										</g>
+										<g transform="translate(25 90)">
+												<rect id="Rectangle" width="550" height="60" fill="#e9e9e9" rx="20" />
+												<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="15">
+													<tspan x="200" y="25">Confirmación diagnóstica:</tspan>
+													<tspan x="20" y="45">Anamnesis, exploración física, E.C.G., radiografía simple, ecocardiografía.</tspan>
+
+												</text>
+											</g>
+
+										<g id="ep-content" class="ep-svg-block" @click="{{ display = true; selected = 'ep-content' }}" transform="translate(25 175)">
+											<rect id="Rectangle" width="250" height="120" fill="#ffcc00" rx="20" />
+											<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="14">
+												<tspan x="30" y="25">Medidas generales:</tspan>
+												<tspan x="30" y="45">Aumento de la volemia</tspan>
+												<tspan x="30" y="65">Oxigenoterapia</tspan>
+												<tspan x="30" y="85">(no administrar diuréticos</tspan>
+												<tspan x="30" y="105">ni venodilatadores)</tspan>
+
+											</text>
+										</g>
+										<g transform="translate(325 200)">
+											<rect id="Rectangle" width="250" height="60" fill="#e9e9e9" rx="20" />
+											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="15">
+												<tspan x="20" y="25">Tratamiento específico de</tspan>
+												<tspan x="20" y="45">la neoplasia desencadenante</tspan>
+											</text>
+										</g>
+
+
+										<g id="ep-form" class="ep-svg-block" @click="{{ display = true; selected = 'ep-form' }}" transform="translate(110 320)">
+												<rect id="Rectangle" width="380" height="60" fill="#ffcc00" rx="20" />
+												<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="15">
+													<tspan x="110" y="25">Pericardiocentesis:</tspan>
+													<tspan x="40" y="45">Abordaje subxifoideo con control ecográfico</tspan>
+												</text>
+											</g>
+											<g id="ep-media" class="ep-svg-block" @click="{{ display = true; selected = 'ep-media' }}" transform="translate(110 405)">
+													<rect id="Rectangle" width="380" height="80" fill="#ffcc00" rx="20" />
+													<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="15">
+														<tspan x="20" y="25">• Necesidad de pericardiocentesis repetidas o</tspan>
+														<tspan x="20" y="45">• Previsión de derrame recidivante o</tspan>
+														<tspan x="20" y="65">• Complicaciones asociadas a pericardiocentesis</tspan>
+
+													</text>
+												</g>
+												<g id="ep-elements" class="ep-svg-block" @click="{{ display = true; selected = 'ep-elements' }}" transform="translate(110 510)">
+														<rect id="Rectangle" width="380" height="100" fill="#ffcc00" rx="20" />
+														<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="15">
+
+															<tspan x="20" y="25">Considerar otras técnicas:</tspan>
+															<tspan x="20" y="45">Ventana pericárdica subxifoidea</tspan>
+															<tspan x="20" y="65">± Infusión de sustancias esclerosantes</tspan>
+															<tspan x="20" y="85">Pericardiectomía...</tspan>
+														</text>
+													</g>
+
+												<g transform="translate(280 630)">
+														<rect id="Rectangle" width="40" height="40" fill="#e9e9e9" rx="20" />
+														<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="17">
+															<tspan x="15" y="25">+</tspan>
+														</text>
+													</g>
+												<g id="ep-principles" class="ep-svg-block" @click="{{ display = true; selected = 'ep-principles' }}" transform="translate(160 690)">
+														<rect id="Rectangle" width="280" height="40" fill="#ffcc00" rx="20" />
+														<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="15">
+																<tspan x="20" y="25">Tratamiento específico antitumoral</tspan>
+														</text>
+													</g>
+
+
+
+
+
+
+
+									</g>
+								</g>
+							</svg>
+
+						</div>
+						<transition name="pop-details">
+							<div class="ep-detail-wrap" v-show="selected != ''" @click="{{selected = ''}}">
+
+								<div class="ep-detail" v-show="selected == 'ep-content'">
+									<h3>Medidas de soporte habituales</h3>
+									<p>Hasta que se proceda a realizar la pericardiocentesis, se deben instaurar las medidas de soporte habituales en esta situación: aumento de la volemia mediante la administración de líquidos, el aumento de la presión intracardiaca y de tamaño del corazón puede aumentar más la presión intrapericárdica), preferiblemente coloides (que permiten aumentar el llenado ventricular derecho) y oxigenoterapia.</p>
+									<p>El papel de los agentes inotrópicos no está bien definido.</p>
+									<p>Está contraindicado el empleo de agentes reductores de la precarga (diuréticos y venodilatadores), puesto que no disminuyen la cuantía del derrame y actúan en contra del necesario aumento de la volemia.</p>
+									<p>La ventilación mecánica con presión positiva debe evitarse en pacientes con taponamiento agudo, ya que disminuye el llenado cardiaco. Si el paciente está recibiendo fármacos anticoagulantes, estas deben suspenderse.</p>
+								</div>
+								<div class="ep-detail" v-show="selected == 'ep-form'">
+									<h3>Pericardiocentesis evacuadora</h3>
+									<p>Es el tratamiento de elección y debe realizarse lo antes posible.</p>
+									<p>La vía de abordaje más segura es la subxifoidea que, realizada bajo control ecográfico, se asocia a un bajo índice de complicaciones. Además, en pacientes sin diagnóstico tumoral previo, puede permitir el estudio citológico. Si existe sangrado intrapericárdico se debe valorar el drenaje quirúrgico.</p>
+								</div>
+								<div class="ep-detail" v-show="selected == 'ep-media'">
+
+									<p>Dado que es un proceso que recidiva con frecuencia, se debe valorar según la evolución clínica, si es necesario realizar varias pericardiocentesis o complicación de las mismas. En general, si se prevé alta probabilidad de recidiva, la realización de medidas para evitarla, como la pericardiotomía, lo más habitual es la apertura de una ventana pericárdica subxifoidea (considerada de elección por muchos centros en pacientes oncológicos).</p>
+									<p>Otra posibilidad es el drenaje manteniendo un catéter varios días, hasta que el débito sea inferior a 20-30 ml/24h. Los defensores del abordaje quirúrgico del derrame pericárdico destacan la mejoría hemodinámica inmediata en casi todos los pacientes, la mínima morbimortalidad quirúrgica y la baja incidencia de recidiva, en comparación con la pericardiocentesis y el drenaje mediante catéter. Sin embargo, estos datos se extraen de series observacionales, no hay ensayos clínicos.</p>
+								</div>
+								<div class="ep-detail" v-show="selected == 'ep-elements'">
+									<p><span class="rosa">&nbsp•</span> Los procedimientos quirúrgicos para crear una ventana pericárdica varían, desde una simple incisión pericárdica subxifoidea (pericardiotomía) hasta un procedimiento extenso que extirpa una porción variable del pericardio (pericardiectomía parcial). Cuando las técnicas previas fracasan, puede estar indicada una pericardiectomía completa. Si la causa del taoponamiento es una fibrosis pericárdica postradioterapia, suele considerarse la pericardiectomía. Los procedimientos extensos se asocian a mayor control del derrame, pero precisan una toracotomía anterior o una esternotomía y se asocian a mayor tasa de complicaciones postoperatorias. Por tanto, teniendo en cuenta la corta supervivencia de la mayoría de estos pacientes, los expertos suelen recomendar la pericardiotomía subxifoidea, reservando la pericardiectomía para pacientes con mejor pronóstico.</p>
+
+									<p><span class="rosa">&nbsp•</span> Una de las técnicas más prometedoras era la <span class="rosa">pericardiectomía con balón percutáneo</span>, una alternativa que se ha usado en pacientes con derrames pericárdicos neoplásicos en los que la calidad de vida es primordial. Consiste en insertar un catéter-balón en el espacio pericárdico vía subxifoidea, guiado por ecografía; el balón se infla y se saca del pericardio para crear una ventana, permitiendo el drenaje de líquido a la pleura o al peritoneo. Aunque evita las recidivas en un alto porcentaje de casos; las posibles complicaciones (fiebre, neumotórax, sangrado) hacen que no sea un procedimiento muy utilizado.</p>
+									<p><span class="rosa">&nbsp• La infusión de sustancias esclerosantes</span> a través del catéter de drenaje o durante la realización de una ventana pericárdica actualmente es opcional, puesto que no se ha mostrado claramente superior en el control del cuadro y no está exenta de efectos colaterales. No existe, además, consenso en cuanto al fármaco más adecuada para realizar las instilaciones (tetraciclina, bleomicina...).</p>
+
+								</div>
+								<div class="ep-detail" v-show="selected == 'ep-principles'">
+									<h3>Tratamiento específico antitumoral</h3>
+									<p>Es necesario considerar el tratamiento específico antitumoral para cada tipo de neoplasia. La radioterapia como tratamiento de derrames pericárdicos neoplásicos está indicada en algunos linfomas.</p>
+								</div>
+								<div class="ep-detail" v-show="selected == 'ep-unity'">
+									<h3>Unity</h3>
+									<p>Both a guiding principle and the end-result of a well-considered design.</p>
+								</div>
+
+
+							</div>
+						</transition>
+
+					</div>
+
+				</div>
+
+
+			</div>
+
 
 			<div class="ico-narrow-content">
 				<div class="row animate-box" data-animate-effect="fadeInLeft">

@@ -229,32 +229,154 @@
 				<div class="row animate-box" data-animate-effect="fadeInLeft">
 					<div class="col-md-12">
 
-						<div class="marcoTexto">
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-							<p></p><br>
-
-						</div>
-
+						<img src="images/ICONOclic.png" alt="" class="img-responsive centrada">
+						<p class="text-center">Haz click en los elementos destacados en amarillo para ver su contenido:</p>
+						<h4 class="text-center">Diagrama diagnóstico-terapéutico sobre la enterocolitis neutropénica</h4>
 
 					</div>
 				</div>
 			</div>
 
+
+			<div class="ico-narrow-content">
+				<div class="template-wrap">
+					<div class="ep-flowchart" id="ep-flowchart">
+						<div class="ep-svg-wrap">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+								<g id="Page-1" fill="none" fill-rule="evenodd">
+									<g id="Course-Template">
+										<g transform="translate(295 53)">
+											<text id="Content" fill="#09c3dc" font-family="Open Sans, Arial, sans-serif" font-size="30">
+												⬇
+											</text>
+										</g>
+										<g transform="translate(123 0)">
+											<rect id="Rectangle" width="354" height="40" fill="#09c3dc" rx="20" />
+											<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
+												<tspan x="10" y="25" font-weight="bold">Paciente con fiebre y neurotropenia postquimioterapia</tspan>
+											</text>
+										</g>
+
+										<g transform="translate(295 233)">
+											<text id="Content" fill="#e9e9e9" font-family="Open Sans, Arial, sans-serif" font-size="30">
+												⬇
+											</text>
+										</g>
+
+										<g transform="translate(140 60)">
+											<rect id="Rectangle" width="320" height="160" fill="#e9e9e9" rx="20" />
+											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="13">
+												<tspan x="20" y="25">• Dolor y distensión abdominal</tspan>
+												<tspan x="20" y="40">• Diarrea acuosa y/o sanguinolenta</tspan>
+												<tspan x="20" y="55">• Dolor a la palpación abdominal</tspan>
+												<tspan x="20" y="70" class="italic">&nbsp&nbsp-cuadrante inferior derecho-</tspan>
+												<tspan x="20" y="85">• Rx, Eco, TC: engrosamiento de pared del colon</tspan>
+												<tspan x="20" y="100">&nbsp&nbspdistensión de asas...</tspan>
+
+											</text>
+										</g>
+										<g transform="translate(160 170)">
+											<rect id="Rectangle" width="270" height="40" fill="#fff" rx="20" />
+											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="13">
+												<tspan x="10" y="25">Sospecha de enterocolitis neutropénica</tspan>
+											</text>
+										</g>
+
+										<g id="ep-content" class="ep-svg-block" @click="{{ display = true; selected = 'ep-content' }}" transform="translate(140 250)">
+											<rect id="Rectangle" width="320" height="165" fill="#ffcc00" rx="20" />
+											<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
+												<tspan x="80" y="25" font-weight="bold">Tratamiento conservador</tspan>
+												<tspan x="20" y="40">• Antibióticos de amplio espectro que</tspan>
+												<tspan x="20" y="55"class="italic">&nbsp&nbsp-cubran gramnegativos y anaerobios-</tspan>
+												<tspan x="20" y="70">• Dieta absoluta</tspan>
+												<tspan x="20" y="85">• Sonda nasogástrica</tspan>
+												<tspan x="20" y="100">• Nutrición parenteral</tspan>
+												<tspan x="20" y="115">• Transfusión de hemoderivados, según</tspan>
+												<tspan x="20" y="130">&nbsp&nbspnecesidades</tspan>
+												<tspan x="20" y="145">• Valorar asociación de G-CSF</tspan>
+											</text>
+										</g>
+										<g transform="translate(195 430)">
+											<text id="Content" fill="#ffcc00" font-family="Open Sans, Arial, sans-serif" font-size="30">
+												⬇
+											</text>
+										</g>
+										<g transform="translate(395 430)">
+											<text id="Content" fill="#ffcc00" font-family="Open Sans, Arial, sans-serif" font-size="30">
+												⬇
+											</text>
+										</g>
+										<g transform="translate(390 525)">
+											<text id="Content" fill="#e9e9e9" font-family="Open Sans, Arial, sans-serif" font-size="30">
+												⬋
+											</text>
+										</g>
+										<g transform="translate(195 545)">
+											<text id="Content" fill="#ffcc00" font-family="Open Sans, Arial, sans-serif" font-size="30">
+												⬊
+											</text>
+										</g>
+										<g id="ep-form" class="ep-svg-block" @click="{{ display = true; selected = 'ep-form' }}" transform="translate(10 435)">
+											<rect id="Rectangle" width="280" height="100" fill="#ffcc00" rx="20" />
+											<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
+												<tspan x="20" y="25" font-weight="bold">Evolución hacia:</tspan>
+												<tspan x="20" y="40">• Peritonitis</tspan>
+												<tspan x="20" y="55">• Perforación</tspan>
+												<tspan x="20" y="70">• Hemorragia no controlable tras la</tspan>
+												<tspan x="20" y="85">&nbsp&nbspcorrección de citopenias y coagulopatía.</tspan>
+											</text>
+										</g>
+										<g transform="translate(310 455)">
+											<rect id="Rectangle" width="280" height="55" fill="#e9e9e9" rx="20" />
+											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="13">
+												<tspan x="50" y="25" font-weight="bold">Ausencia de respuesta clínica</tspan>
+												<tspan x="40" y="40">tras 48-72 horas de tratamiento</tspan>
+											</text>
+										</g>
+
+
+										<g transform="translate(160 555)">
+											<rect id="Rectangle" width="270" height="40" fill="#e9e9e9" rx="20" />
+											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="13">
+												<tspan x="40" y="25" font-weight="bold">TRATAMIENTO QUIRÚRGICO</tspan>
+											</text>
+										</g>
+
+									</g>
+								</g>
+							</svg>
+						</div>
+
+						<transition name="pop-details">
+							<div class="ep-detail-wrap" v-show="selected != ''" @click="{{selected = ''}}">
+
+								<div class="ep-detail" v-show="selected == 'ep-content'">
+									<h3>El tratamiento médico conservador incluye:</h3>
+									<p>&nbsp&nbsp<span class="rosa">•</span> Dieta absoluta</p>
+										<p>&nbsp&nbsp<span class="rosa">•</span> Sonda nasogástrica</p>
+										<p>&nbsp&nbsp<span class="rosa">•</span> Nutrición parenteral</p>
+										<p>&nbsp&nbsp<span class="rosa">•</span> Transfusión de hemoderivados, si es preciso y</p>
+										<p>&nbsp&nbsp<span class="rosa">•</span> Antibióticos de amplio espectro que deberán incluir cobertura frente a anaerobios (Clostridium spp.) y gramnegativos (P. aeruginosa).</p>
+									<h3>Un tratamiento eficaz consiste en la administración de:</h3>
+										<p>&nbsp&nbsp<span class="rosa">•</span> Un carbapenémico (imipenem 500 mg/6 h i.v. o meropenem 1 g/8 h i.v.); o </p>
+										<p>&nbsp&nbsp<span class="rosa">•</span> Una cefalosporina de cuarta generación (cefepima 2 g/8 h i.v.)</p>
+										<p>&nbsp&nbsp<span class="rosa">•</span> Metronidazol (metronidazol 500 mg/8 h v.o. o i.v.).</p>
+									<br>
+									<p>En caso de utilizar betalactámicos con actividad antipseudomonas, puede valorarse también la asociación de un aminoglucósido (amicacina 15 mg/kg/día i.v. en dosis única diaria). </p>
+									<p>Aunque no se ha demostrado un claro beneficio con el empleo del fac-tor estimulante de colonias de granulocitos (G-CSF), puede considerarse su administración para acelerar la recuperación de las cifras de neutrófilos, dado el alto riesgo de complicaciones infecciosas y gravedad del cuadro.</p>
+								</div>
+								<div class="ep-detail" v-show="selected == 'ep-form'">
+									<p>En caso de evidencia de perforación, peritonitis, sangrado que persiste tras la corrección de citopenias y coagulopatía o ausencia de mejoría tras 48-72 horas de iniciarse el tratamiento conservador, debe realizarse tratamiento quirúrgico que en la mayoría de los casos conlleva una hemicolectomía derecha.</p>
+								</div>
+								<div class="ep-detail" v-show="selected == 'ep-media'">
+									<h3></h3>
+									<p></p>
+								</div>
+							</div>
+						</transition>
+					</div>
+				</div>
+			</div>
 
 
 
