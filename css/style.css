@@ -609,7 +609,7 @@ button {
 }
 @media screen and (max-width: 768px) {
   #ico-main .ico-narrow-content {
-    width: 100%;
+    width: 95%;
   }
 }
 
