@@ -270,7 +270,7 @@ button {
   background: #ffcc00;
 }
 .flota:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 		filter: drop-shadow(5px 5px 5px #D3D3D3);
 		-webkit-filter: drop-shadow(5px 5px 5px #D3D3D3);
 }
@@ -614,6 +614,8 @@ button {
     padding: 3.5em 1em;
   }
 }
+
+
 body.offcanvas {
   overflow-x: hidden;
 }
@@ -738,8 +740,8 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 	background-blend-mode: multiply;
 	background-size: 100%;
 	background-attachment: fixed;
-	-webkit-box-shadow: inset 0px 0px 1000px 10px rgba(248,247,244,100);
-  -moz-box-shadow: inset 0px 0px 1000px 10px rgba(248,247,244,100);
+	-webkit-box-shadow: inset 0px 0px 2000px 10px rgba(248,247,244,100);
+  -moz-box-shadow: inset 0px 0px 2000px 10px rgba(248,247,244,100);
   box-shadow: inset 0px 0px 2000px 10px rgba(248,247,244,100);
 }
 @media screen and (max-width: 768px) {

@@ -6309,3 +6309,19 @@ button.close {
     display: none !important;
   }
 }
+
+
+
+.diagrama{
+  width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media (max-width: 1200px) {
+  .diagrama {
+		width: 90%;
+  }
+@media (max-width: 992px) {
+	.diagrama {
+		width: 100%;
+  }

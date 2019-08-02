@@ -34,7 +34,7 @@ div {
 
 .ep-detail-wrap {
   position: absolute;
-  background-color: rgba(9, 195, 220, 0.3);
+  background-color: rgba(246, 2013, 208, 0.3);
   top: 0;
   bottom: 0;
   left: 0;
@@ -42,17 +42,16 @@ div {
   border-radius: 25px;
   -webkit-box-shadow: inset 0px 0px 1000px 10px rgba(248,247,244,100);
   -moz-box-shadow: inset 0px 0px 1000px 10px rgba(248,247,244,100);
-  box-shadow: inset 0px 0px 2000px 80px rgba(248,247,244,100);
+  box-shadow: inset 0px 0px 2000px 180px rgba(248,247,244,100);
 }
 .ep-detail-wrap .ep-detail {
   position: relative;
-  font-size: 1.2me;
-  background-color: #f8f7f4;
+  background-color: #fff;
   color: #586075;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transform: translateY(-60%);
+          transform: translateY(-60%);
   margin: 50% auto;
-  width: 80%;
+  width: 90%;
   height: auto;
   padding: 1em 2em;
   border-radius: 15px;
@@ -60,7 +59,7 @@ div {
 }
 .ep-detail-wrap .ep-detail::after {
   content: "✖";
-  color: #f8f7f4;
+  color: #fff;
   position: absolute;
   top: -20px;
   right: -10px;
