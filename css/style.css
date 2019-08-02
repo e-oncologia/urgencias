@@ -720,8 +720,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 .ico-cabecera {
   padding: 3em 0;
 	background-color: #dadada;
-	background-size: 100%;
-	background-attachment: fixed;
+
 }
 
 .ico-fondo {
