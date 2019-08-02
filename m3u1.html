@@ -351,7 +351,7 @@
 												</text>
 											</g>
 											<g transform="translate(295 260)">
-												<text id="Content" fill="#ffcc00" font-family="Open Sans, Arial, sans-serif" font-size="30">
+												<text id="Content" fill="#e9e9e9" font-family="Open Sans, Arial, sans-serif" font-size="30">
 													↓
 												</text>
 											</g>
@@ -412,10 +412,10 @@
 															</text>
 														</g>
 
-														<g id="ep-media" class="ep-svg-block" @click="{{ display = true; selected = 'ep-media' }}" transform="translate(165 195)">
-																<rect id="Rectangle" width="270" height="55" fill="#ffcc00" rx="20" />
-																<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
-																	<tspan x="40" y="25" class="small">Si hay pobre respuesta o en todos</tspan>
+														<g transform="translate(165 195)">
+																<rect id="Rectangle" width="270" height="55" fill="#e9e9e9" rx="20" />
+																<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="13">
+																	<tspan x="40" y="25" class="small">Si hay pobre respuesta, o en todos</tspan>
 																	<tspan x="10" y="40" class="small">los casos de hipercalcemia grave (> 14 mg/dl)</tspan>
 																</text>
 															</g>
@@ -424,17 +424,17 @@
 																	<rect id="Rectangle" width="270" height="225" fill="#ffcc00" rx="20" />
 																	<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
 																		<tspan x="80" y="25">BIFOSFONATOS</tspan>
-																		<tspan x="20" y="45" class="italic">Ácido zoledrónico (Zometa®)</tspan>
+																		<tspan x="20" y="45" class="small italic">Ácido zoledrónico (Zometa®)</tspan>
 																		<tspan x="20" y="60" class="small">4mg i.v. en infusión de 15 minutos</tspan>
-																		<tspan x="10" y="77" class="small">o</tspan>
-																		<tspan x="20" y="95" class="italic">Pamidronato</tspan>
-																		<tspan x="20" y="110" class="small">90 mg i.v. en infusión de 2h</tspan>
-																		<tspan x="10" y="127" class="small">o</tspan>
-																		<tspan x="20" y="145" class="italic">Ibandronato</tspan>
-																		<tspan x="20" y="160" class="small">6mg i.v. en infusión de 2h</tspan>
-																		<tspan x="10" y="177" class="small">o</tspan>
-																		<tspan x="20" y="195" class="italic">Denosumab</tspan>
-																		<tspan x="20" y="210" class="small">120mg sc. cada 28 días</tspan>
+																		<tspan x="20" y="75" class="small">o</tspan>
+																		<tspan x="20" y="90" class="small italic">Pamidronato</tspan>
+																		<tspan x="20" y="105" class="small">90 mg i.v. en infusión de 2h</tspan>
+																		<tspan x="20" y="120" class="small">o</tspan>
+																		<tspan x="20" y="135" class="small italic">Ibandronato</tspan>
+																		<tspan x="20" y="150" class="small">6mg i.v. en infusión de 2h</tspan>
+																		<tspan x="133" y="173" class="small">o</tspan>
+																		<tspan x="90" y="195" >DENOSUMAB</tspan>
+																		<tspan x="70" y="210" class="small">120mg sc. cada 28 días</tspan>
 
 																	</text>
 																</g>
@@ -502,16 +502,15 @@
 									</div>
 									<div class="ep-detail" v-show="selected == 'ep-media'">
 
-										<p>Los fármacos mas empleados actualmente son los bifosfonatos y denosumab. Entre los bifosfonatos, el ácido zoledrónico es el más empleado por la evidencia disponible en pacientes oncológicos. Denosumab es un anticuerpo monoclonal humano contra RANKL, que inhibe la función de los osteoclastos y a diferencia de los bifosfonatos no tiene restricción para su uso en pacientes con insuficiencia renal. Su administración debe iniciarse tan pronto como se descubra la hipercalcemia, ya que las respuestas comienzan a observarse tras 2-4 días de tratamiento.</p>
+
 									</div>
 									<div class="ep-detail" v-show="selected == 'ep-elements'">
-
+										<p>Los fármacos mas empleados actualmente son los bifosfonatos y denosumab. Entre los bifosfonatos, el ácido zoledrónico es el más empleado por la evidencia disponible en pacientes oncológicos. </p>
 										<p><span class="rosa">&nbsp• El ácido zoledrónico (Zometa®)</span> es, en nuestro medio, el bifosfonato de elección en el tratamiento de la hipercalcemia paraneoplásica. Se administra como dosis única de 4 mg en infusión i.v. de 15 minutos. Hasta un 88% de los pacientes normalizan los niveles de calcio en los primeros diez días tras la administración. En aquellos casos en los que por la enfermedad de base se prevea la reaparición de hipercalcemia debe administrarse una dosis mensual.</p>
-
 										<p><span class="rosa">&nbsp• El clodronato disódico (Bonefos®)</span> fue el más empleado de forma clásica. Se administra a dosis iniciales de 5 mg/kg de peso i.v. diluido en 500 ml de suero salino en infusión de 2-6 horas, cada 24 horas. El tratamiento puede repetirse de forma diaria de dos a cinco días y posteriormente, para evitar recaídas, se puede mantener por v.o. a dosis de 800 mg/12 horas.</p>
 										<p><span class="rosa">&nbsp• El pamidronato (Aredia®, Linoten®, Pamifos®)</span> se administra en dosis única de 60-90 mg i.v. en 500 cc de suero salino, en infusión de dos horas. Consigue un 70% de respuestas, recomendándose, al igual que con el ácido zoledrónico, repetir la dosis cada tres o cuatro semanas para evitar recidivas.</p>
 										<p><span class="rosa">&nbsp• El ibandronato</span> también puede emplearse en el tratamiento de la hipercalcemia, en dosis única de 6 mg diluido en 500 cc de suero salino en infusión de dos horas. En la mayoría de los casos se alcanzan niveles normales de calcio en los primeros siete días, pero puede considerarse la administración de una segunda dosis en caso de recaída o ausencia de respuesta.</p>
-
+										<p><span class="rosa">&nbsp• Denosumab</span> es un anticuerpo monoclonal humano contra RANKL, que inhibe la función de los osteoclastos y a diferencia de los bifosfonatos no tiene restricción para su uso en pacientes con insuficiencia renal. Su administración debe iniciarse tan pronto como se descubra la hipercalcemia, ya que las respuestas comienzan a observarse tras 2-4 días de tratamiento.</p>
 									</div>
 									<div class="ep-detail" v-show="selected == 'ep-principles'">
 										<p>Otros fármacos menos utilizados en la actualidad son:</p>
