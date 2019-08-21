@@ -352,7 +352,7 @@
 												</text>
 											</g>
 											<g transform="translate(295 260)">
-												<text id="Content" fill="#e9e9e9" font-family="Open Sans, Arial, sans-serif" font-size="30">
+												<text id="Content" fill="#ffcc00" font-family="Open Sans, Arial, sans-serif" font-size="30">
 													↓
 												</text>
 											</g>
@@ -378,7 +378,7 @@
 
 												</text>
 											</g>
-											<g id="ep-content" class="ep-svg-block" @click="{{ display = true; selected = 'ep-content' }}" transform="translate(165 60)">
+											<g id="ep-once" class="ep-svg-block" @click="{{ display = true; selected = 'ep-once' }}" transform="translate(165 60)">
 													<rect id="Rectangle" width="270" height="115" fill="#ffcc00" rx="20" />
 													<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="14">
 														<tspan x="10" y="25">Hidratación forzada</tspan>
@@ -390,7 +390,7 @@
 													</text>
 												</g>
 
-												<g id="ep-form" class="ep-svg-block" @click="{{ display = true; selected = 'ep-form' }}" transform="translate(450 80)">
+												<g id="ep-doce" class="ep-svg-block" @click="{{ display = true; selected = 'ep-doce' }}" transform="translate(450 80)">
 														<rect id="Rectangle" width="150" height="115" fill="#ffcc00" rx="20" />
 														<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="14">
 
@@ -414,9 +414,9 @@
 															</text>
 														</g>
 
-														<g transform="translate(155 195)">
-																<rect id="Rectangle" width="290" height="55" fill="#e9e9e9" rx="20" />
-																<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="14">
+														<g id="ep-trece" class="ep-svg-block" @click="{{ display = true; selected = 'ep-trece' }}" transform="translate(155 195)">
+																<rect id="Rectangle" width="290" height="55" fill="#ffcc00" rx="20" />
+																<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="14">
 																	<tspan x="20" y="25">Si hay pobre respuesta, o en todos los</tspan>
 																	<tspan x="10" y="40">casos de hipercalcemia grave (> 14 mg/dl)</tspan>
 																</text>
@@ -554,21 +554,22 @@
 							<transition name="pop-details">
 								<div class="ep-detail-wrap" v-show="selected != ''" @click="{{selected = ''}}">
 
-									<div class="ep-detail" v-show="selected == 'ep-content'">
-										<p>En los pacientes con hipercalcemia grave e insuficiencia renal marcada o insuficiencia cardiaca debe considerarse la diálisis.</p>
-									</div>
-									<div class="ep-detail" v-show="selected == 'ep-form'">
+
+									<div class="ep-detail" v-show="selected == 'ep-once'">
 										<p><span class="rosa">&nbsp• </span>En primer lugar, debe procederse a realizar una hidratación vigorosa con suero fisiológico –con control de presión venosa central (PVC) y diuresis horaria– a un ritmo inicial de 500-1.000 cc/hora durante las primeras horas, manteniendo posteriormente 100-200 cc/hora, dependiendo de las funciones renal y cardiovascular del paciente, para conseguir un aporte de 3 a 6 litros en 24 horas. Esto permite incrementar el filtrado glomerular y favorecer la excreción de calcio. Mantener una diuresis de 100-200 cc/hora.</p>
 										<p><span class="rosa">&nbsp• </span>La asociación de furosemida –siempre tras una adecuada hidratación inicial, y en función de la diuresis y PVC– a dosis de 20-40 mg i.v. cada 6-12 horas, permite incrementar la excreción renal de calcio, aunque con un efecto limitado. Además, su uso suele ser necesario para un adecuado control de la diuresis y el balance hídrico.Es imprescindible vigilar la posible aparición de hipopotasemia e hipomagnesemia que se asocian por pérdidas urinarias. Los diuréticos tiazídicos están contraindicados, al aumentar la reabsorción de calcio en el riñón.</p>
-										<p><span class="rosa">&nbsp• </span>En hipercalcemias leves-moderadas las medidas anteriormente expuestas pueden ser suficientes; sin embargo, en raras ocasiones son suficientes por sí solas para disminuir de forma significativa y mantenida la calcemia en hipercalcemias graves (más de 14 mg/dl), por lo que suele ser necesario asociar tratamiento farmacológico hipocalcemiante.</p>
 
 									</div>
-									<div class="ep-detail" v-show="selected == 'ep-media'">
+									<div class="ep-detail" v-show="selected == 'ep-doce'">
+										<p>En los pacientes con hipercalcemia grave e insuficiencia renal marcada o insuficiencia cardiaca debe considerarse la diálisis.</p>
+									</div>
+									<div class="ep-detail" v-show="selected == 'ep-trece'">
 
+										<p>En hipercalcemias leves-moderadas las medidas anteriormente expuestas pueden ser suficientes; sin embargo, en raras ocasiones son suficientes por sí solas para disminuir de forma significativa y mantenida la calcemia en hipercalcemias graves (más de 14 mg/dl), por lo que suele ser necesario asociar tratamiento farmacológico hipocalcemiante.</p>
 
 									</div>
 									<div class="ep-detail" v-show="selected == 'ep-uno'">
-										<p><span class="rosa">&nbspEl ácido zoledrónico (Zometa®)</span> es, en nuestro medio, el bifosfonato de elección en el tratamiento de la hipercalcemia paraneoplásica. Se administra como dosis única de 4 mg en infusión i.v. de 15 minutos. Hasta un 88% de los pacientes normalizan los niveles de calcio en los primeros diez días tras la administración. En aquellos casos en los que por la enfermedad de base se prevea la reaparición de hipercalcemia debe administrarse una dosis mensual. Entre los bifosfonatos, el ácido zoledrónico es el más empleado por la evidencia disponible en pacientes oncológicos.</p>
+										<p><span class="rosa">El ácido zoledrónico (Zometa®)</span> es, en nuestro medio, el bifosfonato de elección en el tratamiento de la hipercalcemia paraneoplásica. Se administra como dosis única de 4 mg en infusión i.v. de 15 minutos. Hasta un 88% de los pacientes normalizan los niveles de calcio en los primeros diez días tras la administración. En aquellos casos en los que por la enfermedad de base se prevea la reaparición de hipercalcemia debe administrarse una dosis mensual. Entre los bifosfonatos, el ácido zoledrónico es el más empleado por la evidencia disponible en pacientes oncológicos.</p>
 									</div>
 									<div class="ep-detail" v-show="selected == 'ep-dos'">
 										<p><span class="rosa"> El clodronato disódico (Bonefos®)</span> fue el más empleado de forma clásica. Se administra a dosis iniciales de 5 mg/kg de peso i.v. diluido en 500 ml de suero salino en infusión de 2-6 horas, cada 24 horas. El tratamiento puede repetirse de forma diaria de dos a cinco días y posteriormente, para evitar recaídas, se puede mantener por v.o. a dosis de 800 mg/12 horas.</p>
