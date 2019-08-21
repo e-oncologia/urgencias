@@ -113,15 +113,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .6em;
 }
 h1 {
-  font-size: 70px;
+  font-size: 35px;
   line-height: 1em;
 }
 h2 {
-  font-size: 55px;
+  font-size: 30px;
   line-height: 1em;
 }
 h3 {
-  font-size: 35px;
+  font-size: 25px;
   padding-left: .2em;
   padding-right: .2em;
   padding-top: .2em;
@@ -131,7 +131,7 @@ h3 {
 	display: inline-block;
 }
 h4 {
-  font-size: 26px;
+  font-size: 23px;
   color: #999999;
 }
 h5 {
@@ -606,12 +606,10 @@ button {
   position: relative;
   width: 85%;
   margin: 0 auto;
-  padding: 1em 0;
 }
 @media screen and (max-width: 768px) {
   #ico-main .ico-narrow-content {
-    width: 100%;
-    padding: 3.5em 1em;
+    width: 95%;
   }
 }
 
