@@ -237,7 +237,7 @@
 				<div class="template-wrap diagrama">
 					<div class="ep-flowchart" id="ep-flowchart">
 						<div class="ep-svg-wrap">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 810">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1100">
 								<g id="Page-1" fill="none" fill-rule="evenodd">
 									<g id="Course-Template">
 
@@ -259,28 +259,43 @@
 											</text>
 										</g>
 										<g transform="translate(295 297)">
-											<text id="Content" fill="#ffcc00" font-family="Open Sans, Arial, sans-serif" font-size="30">
+											<text id="Content" fill="#e9e9e9" font-family="Open Sans, Arial, sans-serif" font-size="30">
 												↓
 											</text>
 										</g>
-										<g id="ep-content" class="ep-svg-block" @click="{{ display = true; selected = 'ep-content' }}" transform="translate(60 120)">
-											<rect id="Rectangle" width="480" height="165" fill="#ffcc00" rx="20" />
+										<g transform="translate(60 120)">
+											<rect id="Rectangle" width="480" height="165" fill="#e9e9e9" rx="20" />
+
+										</g>
+										<g id="ep-uno" class="ep-svg-block" @click="{{ display = true; selected = 'ep-uno' }}" transform="translate(70 165)">
+											<rect id="Rectangle" width="460" height="65" fill="#ffcc00" rx="20" />
 											<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
-												<tspan x="20" y="90">• Hidratación i.v. previa 2-3 l/m²/24 h</tspan>
-												<tspan x="20" y="105" class="italic">&nbsp&nbsp+/- furosemida 20-100 mg i.v.</tspan>
-												<tspan x="20" y="120">• Hidratación posterior durante 3-5 días.</tspan>
-												<tspan x="20" y="135">• Administración de alopurinol 300 mg v.o./24 h o rasburicasa (Fasturtec®)</tspan>
-												<tspan x="20" y="150">&nbsp&nbsp0,2 mg/kg en pacientes de alto riesgo o con hiperuricemia previa.</tspan>
+												<tspan x="5" y="20">• Hidratación i.v. previa 2-3 l/m²/24 h</tspan>
+												<tspan x="5" y="35" class="italic">&nbsp&nbsp+/- furosemida 20-100 mg i.v.</tspan>
+												<tspan x="5" y="55">• Hidratación posterior durante 3-5 días.</tspan>
+
 											</text>
 										</g>
-										<g transform="translate(70 130)">
-											<rect id="Rectangle" width="365" height="55" fill="#fff" rx="20" />
+										<g id="ep-dos" class="ep-svg-block" @click="{{ display = true; selected = 'ep-dos' }}" transform="translate(70 235)">
+											<rect id="Rectangle" width="460" height="45" fill="#ffcc00" rx="20" />
+											<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
+
+												<tspan x="5" y="20">• Administración de alopurinol 300 mg v.o./24 h o rasburicasa (Fasturtec®)</tspan>
+												<tspan x="5" y="35">&nbsp&nbsp0,2 mg/kg en pacientes de alto riesgo o con hiperuricemia previa.</tspan>
+											</text>
+										</g>
+										<g transform="translate(70 120)">
+											<rect id="Rectangle" width="365" height="55" fill="" rx="20" />
 											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="13">
 												<tspan x="10" y="25">• Control de diuresis horaria (mantener 80-100ml/m²/h)</tspan>
 												<tspan x="10" y="40">• Control diario de ácido úrico, P.K. Ca. creatinina y LDH</tspan>
 											</text>
 										</g>
-
+										<g transform="translate(295 350)">
+											<text id="Content" fill="#e9e9e9" font-family="Open Sans, Arial, sans-serif" font-size="30">
+												↓
+											</text>
+										</g>
 										<g transform="translate(75 295)">
 											<rect id="Rectangle" width="450" height="40" rx="20" />
 											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="13">
@@ -300,38 +315,69 @@
 												<tspan x="12" y="25" font-weight="bold">Tratamiento</tspan>
 											</text>
 										</g>
-										<g transform="translate(295 658)">
-											<text id="Content" fill="#ffcc00" font-family="Open Sans, Arial, sans-serif" font-size="30">
+										<g transform="translate(295 745)">
+											<text id="Content" fill="#e9e9e9" font-family="Open Sans, Arial, sans-serif" font-size="30">
 												↓
 											</text>
 										</g>
-										<g id="ep-form" class="ep-svg-block" @click="{{ display = true; selected = 'ep-form' }}" transform="translate(60 420)">
-											<rect id="Rectangle" width="480" height="225" fill="#ffcc00" rx="20" />
+										<g transform="translate(60 420)">
+											<rect id="Rectangle" width="480" height="310" fill="#e9e9e9" rx="20" />
+
+										</g>
+										<g id="ep-tres" class="ep-svg-block" @click="{{ display = true; selected = 'ep-tres' }}" transform="translate(70 470)">
+											<rect id="Rectangle" width="460" height="45" fill="#ffcc00" rx="20" />
 											<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
-												<tspan x="20" y="90">• Hidratación i.v. forzada 2-3 l/m²/24 h</tspan>
-												<tspan x="20" y="105" class="italic">&nbsp&nbsp+/- furosemida i.v. (según diuresis y PVC).</tspan>
-												<tspan x="20" y="120">• Administración de rasburicasa (Fasturtec®) 0, 2 mg/kg i.v. o alopurinol</tspan>
-												<tspan x="20" y="135">&nbsp&nbsp300 mg v.o./12h.</tspan>
-												<tspan x="20" y="150">• Hiperpotasemia: resinas de intercambio iónico o suero glucosado</tspan>
-												<tspan x="20" y="165">&nbsp&nbsp+ insulina +/- gluconato cálcico i.v.</tspan>
-												<tspan x="20" y="180">• Hipocalcemia: gluconato cálcico i.v. si alteraciones neuromusculares o</tspan>
-												<tspan x="20" y="195">&nbsp&nbspcardiacas.</tspan>
-												<tspan x="20" y="210">• Hiperfosfatemia: hidróxido de aluminio.</tspan>
+												<tspan x="5" y="20">• Hidratación i.v. forzada 2-3 l/m²/24 h</tspan>
+												<tspan x="5" y="35" class="italic">&nbsp&nbsp+/- furosemida i.v. (según diuresis y PVC).</tspan>
+
 											</text>
 										</g>
-										<g transform="translate(70 430)">
-											<rect id="Rectangle" width="365" height="55" fill="#fff" rx="20" />
+										<g id="ep-cuatro" class="ep-svg-block" @click="{{ display = true; selected = 'ep-cuatro' }}" transform="translate(70 520)">
+											<rect id="Rectangle" width="460" height="45" fill="#ffcc00" rx="20" />
+											<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
+
+												<tspan x="5" y="20">• Administración de rasburicasa (Fasturtec®) 0, 2 mg/kg i.v. o alopurinol</tspan>
+												<tspan x="5" y="35">&nbsp&nbsp300 mg v.o./12h.</tspan>
+
+											</text>
+										</g>
+										<g id="ep-cinco" class="ep-svg-block" @click="{{ display = true; selected = 'ep-cinco' }}" transform="translate(70 590)">
+											<rect id="Rectangle" width="460" height="45" fill="#ffcc00" rx="20" />
+											<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
+												<tspan x="5" y="20">• Hiperpotasemia: resinas de intercambio iónico o suero glucosado</tspan>
+												<tspan x="5" y="35">&nbsp&nbsp+ insulina +/- gluconato cálcico i.v.</tspan>
+
+											</text>
+										</g>
+										<g id="ep-seis" class="ep-svg-block" @click="{{ display = true; selected = 'ep-seis' }}" transform="translate(70 640)">
+											<rect id="Rectangle" width="460" height="45" fill="#ffcc00" rx="20" />
+											<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
+
+												<tspan x="5" y="20">• Hipocalcemia: gluconato cálcico i.v. si alteraciones neuromusculares o</tspan>
+												<tspan x="5" y="35">&nbsp&nbspcardiacas.</tspan>
+
+											</text>
+										</g>
+										<g id="ep-siete" class="ep-svg-block" @click="{{ display = true; selected = 'ep-siete' }}" transform="translate(70 690)">
+											<rect id="Rectangle" width="460" height="30" fill="#ffcc00" rx="20" />
+											<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
+
+												<tspan x="5" y="20">• Hiperfosfatemia: hidróxido de aluminio.</tspan>
+											</text>
+										</g>
+										<g transform="translate(70 420)">
+											<rect id="Rectangle" width="365" height="55" fill="" rx="20" />
 											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="13">
 												<tspan x="10" y="25">• Control de diuresis horaria (mantener 80-100ml/m²/h)</tspan>
 												<tspan x="10" y="40">• Control de iones cada 6 h</tspan>
 											</text>
 										</g>
-										<g transform="translate(347 745)">
+										<g transform="translate(347 845)">
 											<text id="Content" fill="#e9e9e9" font-family="Open Sans, Arial, sans-serif" font-size="30">
 												→
 											</text>
 										</g>
-										<g transform="translate(70 665)">
+										<g transform="translate(70 765)">
 											<rect id="Rectangle" width="290" height="145" fill="#e9e9e9" rx="20" />
 											<text id="Content" fill="#586075" font-family="Open Sans, Arial, sans-serif" font-size="13">
 												<tspan x="10" y="25" font-weight="bold">Persistencia de criterios de gravedad</tspan>
@@ -344,7 +390,7 @@
 												<tspan x="10" y="130">acidosis metabólica o toxicidad neurológica</tspan>
 											</text>
 										</g>
-										<g id="ep-media" class="ep-svg-block" @click="{{ display = true; selected = 'ep-media' }}" transform="translate(380 715)">
+										<g id="ep-media" class="ep-svg-block" @click="{{ display = true; selected = 'ep-media' }}" transform="translate(380 815)">
 											<rect id="Rectangle" width="150" height="40" fill="#ffcc00" rx="20" />
 											<text id="Content" fill="#fff" font-family="Open Sans, Arial, sans-serif" font-size="13">
 												<tspan x="20" y="25" font-weight="bold">Considerar diálisis</tspan>
@@ -369,15 +415,17 @@
 						<transition name="pop-details">
 							<div class="ep-detail-wrap" v-show="selected != ''" @click="{{selected = ''}}">
 
-								<div class="ep-detail" v-show="selected == 'ep-content'">
-									<h3>Hidratación intravenosa</h3>
+								<div class="ep-detail" v-show="selected == 'ep-uno'">
+									<h5>Hidratación intravenosa</h5>
 									<p>Desde las 24-48 horas previas al inicio del tratamiento con 2-3 l/m2/día de suero glucosado al 5%. En pacientes hipovolémicos o con hiponatremia es preferible utilizar suero fisiológico al 0,9%. Es importante realizar un adecuado
 										control de diuresis, que debe mantenerse en torno a 80-100ml/m2/hora, asociando si es necesario furosemida intravenosa (20-100 mg cada 6-8 horas). Debe continuarse la hidratación de 3 a 5 días después del tratamiento.</p>
-									<h3>Alcalinización de la orina</h3>
+									<h5>Alcalinización de la orina</h5>
 									<p>Ha sido tradicionalmente recomendada en la profilaxis y el tratamiento del SLT, pero actualmente su aplicación es controvertida puesto que, aunque impide la cristalización del ácido úrico, aumenta el riesgo de alcalosis
 										metabólica y favorece la precipitación de complejos de calcio-fosfato en los túbulos renales, lo que puede empeorar la función renal. Por este motivo, la administración de bicarbonato sódico sólo se indica en pacientes con
 										acidosis metabólica.</p>
-									<h3>Alopurinol</h3>
+									</div>
+									<div class="ep-detail" v-show="selected == 'ep-dos'">
+									<h5>Alopurinol</h5>
 									<p>Administración de alopurinol, 300 mg vía oral cada 24 horas, para disminuir la formación de ácido úrico. Debe iniciarse 2-3 días antes de la quimioterapia y mantenerse durante 3-7 días más, hasta la normalización de los niveles
 										de ácido úrico y otros indicadores de lisis tumoral. Es conveniente tener en cuenta sus posibles interacciones con otros fármacos, como algunos quimioterápicos y anticoagulantes orales, para ajustar su dosis si es preciso.</p>
 									<br>
@@ -386,23 +434,30 @@
 										úrico ya existente antes del inicio del tratamiento. Se administra una vez al día a dosis de 0,2 mg/kg en perfusión intravenosa de 30 minutos, disuelto en 50 cc de suero fisiológico. El tratamiento se prolongará duarante 5-7 días.
 										Generalmente se alcanzan niveles normales de ácido úrico tras 4-5 horas. Debe recordarse que su empleo está containdicado en pacientes con déficit de G-6PD.</p>
 								</div>
-								<div class="ep-detail" v-show="selected == 'ep-form'">
+								<div class="ep-detail" v-show="selected == 'ep-tres'">
 									<p>Se continuará con <span class="rosa negrita">hidratación intravenosa</span>, manteniendo un aporte hídrico de 2-3 l/m2/día -con control de PVC-, asociando según PVC y ritmo de diuresis furosemida 20-100 mg vía intravenosa cada
 										4-6 horas.</p>
+									</div>
+									<div class="ep-detail" v-show="selected == 'ep-cuatro'">
 									<p>Se administrará <span class="rosa negrita">rasburicasa</span> (Fasturtec®) o alopurinol a dosis de 300 mg vía oral cada 12 horas.</p>
-									<h3>Hiperpotasemia</h3>
+								</div>
+								<div class="ep-detail" v-show="selected == 'ep-cinco'">
+									<h5>Hiperpotasemia</h5>
 									<p>Es la causa de muerte más frecuente en el paciente con SLT. En casos de hiperpotasemia leve-moderada (5-7 mEq/l), puede ser suficiente la administración de resinas de intercambio iónico (Resincalcio® 15 g vía oral cada 8 horas) o
 										suero glucosado con insulina (por ejemplo, 15 UI de insulina rápidda en 500 ml de suero glucosado al 5% en una hora); en casos de hiperpotasemia severa (superior a 7 mEq/l) y/o sintomática, en los que es necesaria una actuación
 										más rápida, debe emplearse gluconato cálcico al 10% vía intravenosa, 10-30 ml aun ritmo de 2-5 ml/minuto, monitorizando la glucemia y la potasemia de forma estricta.</p>
-									<h3>Hipocalcemia</h3>
+									</div>
+									<div class="ep-detail" v-show="selected == 'ep-seis'">
+									<h5>Hipocalcemia</h5>
 									<p>La hipocalcemia (calcio sérico inferior a 7 mg/dl o calcio iónico inferior a 3,2 mg/dl) asintomática no precisa tratamiento específico. En caso de aparición de síntomas neuromusculares -Chvostek o Trousseau positivos- o
 										cardiovasculares, puede corregirse con gluconato cálcico al 10% vía intravenosa, 10-30 ml diluidos en 100 ml de suero glucosado al 5%, administrados en 10 minutos, seguidos de una perfusión de mantenimiento con 30-40 ml diluidos
 										en 500 ml de suero glucosado al 5% a ritmo de 4-8 ml/kg/hora. Nunca debe ser infundido junto con bicarbonato sódico ya que precipita.</p>
-									<h3>Hiperfosfatemia</h3>
+									</div>
+									<div class="ep-detail" v-show="selected == 'ep-siete'">	<h5>Hiperfosfatemia</h5>
 									<p>La hiperfosfatemia debe tratarse en caso de valores de fósforo superiores a 6 mg/dl, administrando hidróxido de aluminio (Alugel®, Pepsamar®) a dosis de 1-2 g vía oral cada 6-8 horas, y asociado a dieta pobre en fosfatos.</p>
 								</div>
 								<div class="ep-detail" v-show="selected == 'ep-media'">
-									<h3>Diálisis</h3>
+									<h5>Diálisis</h5>
 									<p>La diálisis debe valorarse si persisten criterios de gravedad pese a las medidas anteriores:</p>
 									<p>Fosfatemia superior a 10 mg/dl; potasio superior a 6 mEq/l; creatinina sérica superior a 10 mg/dl o hiperuricemia superior a 10 mg/dl, sobrecarga de volumen, hipertensión no controlable, acidosis metabólica y/o toxicidad
 										neurológica.</p>
